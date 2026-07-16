@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معملك في جيبك - Lab in Pocket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🧪 معملك في جيبك 🧪</h1>
+        <p>تجارب علوم خطيرة... بأمان تام</p>
+    </header>
+
+    
+
+    <div class="buttons">
+        <button onclick="showExp('volcano')">🌋 تجربة البركان</button>
+        <button onclick="showExp('circuit')">💡 تجربة الدائرة الكهربائية</button>
+    </div>
+
+    <div id="volcano" class="experiment">
+        <h2>🌋 تجربة البركان</h2>
+        <h3>الأدوات:</h3>
+        <p>خل، كربونات صوديوم، صبغة حمراء، مجسم بركان</p>
+        <h3>الخطوات:</h3>
+        <p>1. ضعي الخل والصبغة في الزجاجة<br>2. أضيفي كربونات الصوديوم بسرعة<br>3. تفرجي على الانفجار الآمن</p>
+        <div class="gallery">
+            <img src="volcano1.jpg" alt="ادوات البركان">
+            <img src="volcano2.jpg" alt="البركان ينفجر">
+        </div>
+        <video width="90%" controls>
+            <source src="volcano.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="circuit" class="experiment">
+        <h2>💡 تجربة الدائرة الكهربائية</h2>
+        <h3>الأدوات:</h3>
+        <p>بطارية 9V، لمبة صغيرة، سلكين، شريط لاصق</p>
+        <h3>الخطوات:</h3>
+        <p>1. وصلي طرف السلك بقطب البطارية<br>2. وصلي الطرف التاني باللمبة<br>3. اقفلي الدائرة عشان اللمبة تنور</p>
+        <div class="gallery">
+            <img src="circuit1.jpg" alt="ادوات الدائرة">
+            <img src="circuit2.jpg" alt="اللمبة منورة">
+        </div>
+        <video width="90%" controls>
+            <source src="circuit.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <footer>
+        <p class="warning">⚠️ تحذير: لا تجرب هذه التجارب في البيت بدون إشراف شخص كبير</p>
+        <p>تم تنفيذ هذا العمل بواسطة: حفصه مصطفى </p>
+        <p>مدرسة: صفية زغلول الاعدادية بنات | الصف: الثاني الاعدادي</p>
+        <p>ادارة: شمال الاسماعيلية التعليمية</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
